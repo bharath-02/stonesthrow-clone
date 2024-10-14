@@ -1,9 +1,10 @@
+
 const Home = () => {
   return (
-    <div>
-      <h1>My Next App</h1>
-    </div>
+    <main>
+      <h1>Welcome to the Stonesthrow!</h1>
+    </main>
   );
-}
+};
 
 export default Home;
