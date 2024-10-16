@@ -2,11 +2,7 @@ import React, { useState } from "react";
 import Image from "next/image";
 import Link from "next/link";
 import {
-  Box,
   Container,
-  Button,
-  List,
-  ListItem,
   Stack,
   Typography,
   useMediaQuery,
