@@ -41,7 +41,7 @@ const Header = () => {
             direction={{ xs: "column", md: "row" }}
             spacing={4}
             alignItems={{ xs: "flex-start", md: "center" }}
-            className={[styles.navlinks, menuOpen && styles.active]}
+            className={[styles.navlinks, menuOpen && styles.active].filter(Boolean).join(" ")}
             pt={{ xs: 12, md: 1 }}
             pb={{ xs: 4, md: 1 }}
             px={{ xs: 4, md: 0 }}
