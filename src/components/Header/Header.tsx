@@ -50,10 +50,10 @@ const Header = () => {
             pb={{ xs: 4, md: 1 }}
             px={{ xs: 4, md: 0 }}
           >
-            <Link href="/">Store</Link>
-            <Link href="/">Artists</Link>
-            <Link href="/">News</Link>
-            <Link href="/">Tours</Link>
+            <Link href="/"><Typography variant="h6">Store</Typography></Link>
+            <Link href="/"><Typography variant="h6">Artists</Typography></Link>
+            <Link href="/"><Typography variant="h6">News</Typography></Link>
+            <Link href="/"><Typography variant="h6">Tours</Typography></Link>
 
             {isMobile && (
               <IconButton

@@ -49,6 +49,21 @@ const theme = createTheme({
           fontSize: "36px",
           fontWeight: "500",
         },
+        h4: {
+          color: "#000000",
+          fontSize: "28px",
+          fontWeight: "600",
+        },
+        h5: {
+          color: "#000000",
+          fontSize: "24px",
+          fontWeight: "600",
+        },
+        h6: {
+          color: "#000000",
+          fontSize: "16px",
+          fontWeight: "600",
+        },
       },
     },
     MuiSelect: {
