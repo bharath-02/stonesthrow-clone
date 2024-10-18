@@ -2,7 +2,7 @@
 const Home = () => {
   return (
     <main>
-      <h1>Welcome to the Stonesthrow!</h1>
+      <h1>Welcome to the Stonesthrow!!!</h1>
     </main>
   );
 };
