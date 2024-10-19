@@ -34,33 +34,27 @@ const theme = createTheme({
     MuiTypography: {
       styleOverrides: {
         h1: {
-          color: "#000000",
           fontSize: "56px",
           fontWeight: "700",
         },
         h2: {
-          color: "#1B3C74",
           fontWeight: "600",
           fontSize: "48px",
           lineHeight: 1.2,
         },
         h3: {
-          color: "#102851",
           fontSize: "36px",
           fontWeight: "500",
         },
         h4: {
-          color: "#000000",
           fontSize: "28px",
           fontWeight: "600",
         },
         h5: {
-          color: "#000000",
           fontSize: "24px",
           fontWeight: "600",
         },
         h6: {
-          color: "#000000",
           fontSize: "16px",
           fontWeight: "600",
         },
