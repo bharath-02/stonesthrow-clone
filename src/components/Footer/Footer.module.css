@@ -1,0 +1,43 @@
+.footerWrapper {
+    background-color: #000;
+    color: #fff !important;
+}
+
+.title {
+    padding: 8rem 0;
+    border-bottom: 1px solid #fff;
+}
+
+.title > h3 {
+    font-weight: 400 !important;
+}
+
+.title span {
+    color: #ff8900;
+}
+
+.address > h4 {
+    font-weight: 400;
+}
+
+.address p+p {
+    margin-top: 4px;
+}
+
+.icon {
+    color: white;
+}
+
+.footerLinks h6 {
+    font-size: 19px;
+    font-weight: 300;
+    color: #fff;
+}
+
+.footerLinks a {
+    text-decoration: none;
+}
+.copyRight {
+    color: #797979;
+    display: inline;
+}
