@@ -6,6 +6,8 @@ import CssBaseline from "@mui/material/CssBaseline";
 import theme from "@/Themes/theme";
 import Header from "@/components/Header/Header"
 
+import './styles/globals.css';
+
 export default function RootLayout({
   children,
 }: {

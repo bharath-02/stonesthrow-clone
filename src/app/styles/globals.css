@@ -1,0 +1,20 @@
+/* Override the next arrow */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff !important; /* Set your desired color */
+  right: 10px; /* Adjust the position if necessary */
+  font-size: 24px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #ffffff !important; /* Set the inactive dots color */
+  opacity: 0.7; /* Add some transparency for inactive dots */
+  width: 10px !important;
+  height: 10px !important;
+}
+
+/* Override the active dot */
+.swiper-pagination-bullet-active {
+  background-color: #ff9900; /* Set the active dot color */
+  opacity: 1; /* Make the active dot fully opaque */
+}

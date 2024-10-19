@@ -1,8 +1,10 @@
+import React from 'react';
+import Carousel from "@/components/Carousel/HeroCarousel"; 
 
 const Home = () => {
   return (
     <main>
-      <h1>Welcome to the Stonesthrow!!!</h1>
+      <Carousel />
     </main>
   );
 };
