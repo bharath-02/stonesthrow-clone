@@ -41,15 +41,25 @@ const Header = () => {
             direction={{ xs: "column", md: "row" }}
             spacing={4}
             alignItems={{ xs: "flex-start", md: "center" }}
-            className={[styles.navlinks, menuOpen && styles.active].filter(Boolean).join(" ")}
+            className={[styles.navlinks, menuOpen && styles.active]
+              .filter(Boolean)
+              .join(" ")}
             pt={{ xs: 12, md: 1 }}
             pb={{ xs: 4, md: 1 }}
             px={{ xs: 4, md: 0 }}
           >
-            <Link href="/"><Typography variant="h6">Store</Typography></Link>
-            <Link href="/"><Typography variant="h6">Artists</Typography></Link>
-            <Link href="/"><Typography variant="h6">News</Typography></Link>
-            <Link href="/"><Typography variant="h6">Tours</Typography></Link>
+            <Link href="/">
+              <Typography variant="h6">Store</Typography>
+            </Link>
+            <Link href="/">
+              <Typography variant="h6">Artists</Typography>
+            </Link>
+            <Link href="/">
+              <Typography variant="h6">News</Typography>
+            </Link>
+            <Link href="/">
+              <Typography variant="h6">Tours</Typography>
+            </Link>
 
             {isMobile && (
               <IconButton
