@@ -1,12 +1,10 @@
-import React, { useState } from "react";
+import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import {
   Container,
   Stack,
   Typography,
-  useMediaQuery,
-  IconButton,
 } from "@mui/material";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
